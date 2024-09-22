@@ -17,8 +17,6 @@
       <ComboBox fx:id="dataTypeComboBox" promptText="Select Data Type" />
       <ComboBox fx:id="timeframeComboBox" promptText="Select Timeframe" />
       
-      <Button fx:id="manageGroupButton" text="Manage Groups" onAction="#manageGroups" />
-      
       <LineChart fx:id="lineChart" prefWidth="400" prefHeight="200" title="Data Graph">
          <xAxis>
             <NumberAxis fx:id="xAxis" label="Time"/>
@@ -31,8 +29,6 @@
       <Button fx:id="displayDataButton" text="Display Data" onAction="#displayData"/>
 
       <Button text="Upload Data" onAction="#uploadData" />
-
-      <TextArea fx:id="dataDisplayTextArea" prefHeight="100" prefWidth="400" editable="false" />
 
       <Button text="Quit" onAction="#quitApplication" />
    </children>
